@@ -50,6 +50,7 @@ function CheckAnswer(currentLevel){
         playSound("wrong");
         $("body").addClass("game-over");
         $("#level-title").text("Game Over, Refresh the page to play again");
+        $("#level-title").css("line-height","1rem");
   
         setTimeout(function () {
           $("body").removeClass("game-over");
