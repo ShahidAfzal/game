@@ -41,6 +41,20 @@ body {
   opacity: 0.8;
 }
 
+.rules{
+  color: yellow;
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-family: montserrat,sans-serif;
+  font-weight: bold;
+  line-height: 3rem;
+  text-align: left;
+  margin-left: 35px;
+}
+
 .red {
   background-color: red;
 }
