@@ -45,6 +45,12 @@ body {
   color: yellow;
   text-align: center;
 }
+.example, .note{
+  color: red;
+  
+  text-align: left;
+  
+}
 
 p{
   color: white;
@@ -84,5 +90,13 @@ p{
     align-items: center;
     justify-content: center;
   }
+  .rules{
+    margin-top: 100px;
+  }
+  p{
+    line-height: 5.5rem;
+    font-size: small;
+  }
+  
   
 }
